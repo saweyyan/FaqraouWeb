@@ -1,0 +1,26 @@
+:root{
+/* add your style variables here */
+/* primary color used for button background, logo ...  */
+    --primaryColor:green;
+    --primaryColorVariant:rgb(8, 161, 8);
+    --primaryColorDark:rgb(8, 99, 8);
+    --secondaryColor:rgb(204, 153, 25);
+    --secondaryColorVariant:rgb(232, 181, 53);
+    --secondaryColorDark:rgb(146, 108, 13);
+
+    --backgroundColor:white;
+}
+
+
+body{    
+    background-color: var(--backgroundColor);
+}
+
+button{
+    background-color: var(--primaryColor);
+    color: white;
+    border: none;
+}
+
+
+/* Media queries */
